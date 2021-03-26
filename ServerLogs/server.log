@@ -1,0 +1,472 @@
+2021-03-24 09:23:27:515 [Appium] Welcome to Appium v1.20.2
+2021-03-24 09:23:27:516 [Appium] Non-default server args:
+2021-03-24 09:23:27:516 [Appium]   sessionOverride: true
+2021-03-24 09:23:27:517 [Appium]   logFile: /Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/ServerLogs/server.log
+2021-03-24 09:23:27:541 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-03-24 09:23:27:629 [HTTP] --> GET /wd/hub/status
+2021-03-24 09:23:27:629 [HTTP] {}
+2021-03-24 09:23:27:630 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-03-24 09:23:27:631 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-03-24 09:23:27:636 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2021-03-24 09:23:27:636 [HTTP] 
+2021-03-24 09:23:27:640 [HTTP] --> GET /wd/hub/status
+2021-03-24 09:23:27:640 [HTTP] {}
+2021-03-24 09:23:27:640 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-03-24 09:23:27:641 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-03-24 09:23:27:642 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2021-03-24 09:23:27:642 [HTTP] 
+2021-03-24 09:23:27:652 [HTTP] Request idempotency key: dd259f84-d5a4-457b-866f-dc818145f980
+2021-03-24 09:23:27:665 [HTTP] --> POST /wd/hub/session
+2021-03-24 09:23:27:665 [HTTP] {"desiredCapabilities":{"app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","avdLaunchTimeout":180000,"automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"My_emulator","deviceName":"Pixel 3","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.MainActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:avdLaunchTimeout":180000,"chromeDriverPort":"11000","appium:deviceName":"Pixel 3","platformName":"android","appium:systemPort":"10000","appium:udid":"My_emulator"}]}}
+2021-03-24 09:23:27:666 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.MainActivity","appPackage":"com.swaglabsmobileapp","avdLaunchTimeout":180000,"automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"My_emulator","deviceName":"Pixel 3","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.MainActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:avdLaunchTimeout":180000,"chromeDriverPort":"11000","appium:deviceName":"Pixel 3","platformName":"android","appium:systemPort":"10000","appium:udid":"My_emulator"}]}]
+2021-03-24 09:23:27:667 [BaseDriver] Event 'newSessionRequested' logged at 1616577807666 (14:53:27 GMT+0530 (India Standard Time))
+2021-03-24 09:23:27:669 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-03-24 09:23:27:670 [BaseDriver]   chromeDriverPort
+2021-03-24 09:23:27:981 [Appium] Appium v1.20.2 creating new AndroidUiautomator2Driver (v1.61.2) session
+2021-03-24 09:23:27:981 [Appium] There are no active sessions for cleanup
+2021-03-24 09:23:27:983 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-03-24 09:23:27:983 [BaseDriver] Creating session with W3C capabilities: {
+2021-03-24 09:23:27:983 [BaseDriver]   "alwaysMatch": {
+2021-03-24 09:23:27:983 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2021-03-24 09:23:27:984 [BaseDriver]     "platformName": "android",
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:app": "/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.MainActivity",
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:avdLaunchTimeout": 180000,
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:deviceName": "Pixel 3",
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:systemPort": "10000",
+2021-03-24 09:23:27:984 [BaseDriver]     "appium:udid": "My_emulator"
+2021-03-24 09:23:27:985 [BaseDriver]   },
+2021-03-24 09:23:27:985 [BaseDriver]   "firstMatch": [
+2021-03-24 09:23:27:985 [BaseDriver]     {}
+2021-03-24 09:23:27:985 [BaseDriver]   ]
+2021-03-24 09:23:27:985 [BaseDriver] }
+2021-03-24 09:23:27:987 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-03-24 09:23:27:987 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-03-24 09:23:27:990 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2021-03-24 09:23:27:990 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2021-03-24 09:23:27:992 [BaseDriver] Session created with session id: 1c26aef8-5258-4e11-8c34-e3870687b303
+2021-03-24 09:23:27:994 [BaseDriver] Using local app '/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'
+2021-03-24 09:23:27:994 [UiAutomator2] Checking whether app is actually present
+2021-03-24 09:23:28:013 [ADB] Found 5 'build-tools' folders under '/Users/vishnu.vardhan/Library/Android/sdk' (newest first):
+2021-03-24 09:23:28:013 [ADB]     /Users/vishnu.vardhan/Library/Android/sdk/build-tools/31.0.0-rc1
+2021-03-24 09:23:28:013 [ADB]     /Users/vishnu.vardhan/Library/Android/sdk/build-tools/29.0.3
+2021-03-24 09:23:28:013 [ADB]     /Users/vishnu.vardhan/Library/Android/sdk/build-tools/28.0.3
+2021-03-24 09:23:28:013 [ADB]     /Users/vishnu.vardhan/Library/Android/sdk/build-tools/27.0.2
+2021-03-24 09:23:28:013 [ADB]     /Users/vishnu.vardhan/Library/Android/sdk/build-tools/26.0.2
+2021-03-24 09:23:28:014 [ADB] Using 'adb' from '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb'
+2021-03-24 09:23:28:015 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2021-03-24 09:23:28:029 [AndroidDriver] Retrieving device list
+2021-03-24 09:23:28:029 [ADB] Trying to find a connected android device
+2021-03-24 09:23:28:029 [ADB] Getting connected devices
+2021-03-24 09:23:28:040 [ADB] No connected devices have been detected
+2021-03-24 09:23:28:040 [ADB] Could not find online devices
+2021-03-24 09:23:28:041 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:28:041 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:28:252 [ADB] Getting connected devices
+2021-03-24 09:23:28:265 [ADB] No connected devices have been detected
+2021-03-24 09:23:28:265 [ADB] Could not find online devices
+2021-03-24 09:23:28:265 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:28:266 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:28:479 [ADB] Getting connected devices
+2021-03-24 09:23:28:491 [ADB] No connected devices have been detected
+2021-03-24 09:23:28:491 [ADB] Could not find online devices
+2021-03-24 09:23:28:491 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:28:491 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:28:705 [ADB] Getting connected devices
+2021-03-24 09:23:28:721 [ADB] No connected devices have been detected
+2021-03-24 09:23:28:721 [ADB] Could not find online devices
+2021-03-24 09:23:28:721 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:28:722 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:28:935 [ADB] Getting connected devices
+2021-03-24 09:23:28:950 [ADB] No connected devices have been detected
+2021-03-24 09:23:28:950 [ADB] Could not find online devices
+2021-03-24 09:23:28:950 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:28:950 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:29:162 [ADB] Getting connected devices
+2021-03-24 09:23:29:177 [ADB] No connected devices have been detected
+2021-03-24 09:23:29:178 [ADB] Could not find online devices
+2021-03-24 09:23:29:178 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:29:178 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:29:391 [ADB] Getting connected devices
+2021-03-24 09:23:29:404 [ADB] No connected devices have been detected
+2021-03-24 09:23:29:404 [ADB] Could not find online devices
+2021-03-24 09:23:29:405 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:29:405 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:29:621 [ADB] Getting connected devices
+2021-03-24 09:23:29:635 [ADB] No connected devices have been detected
+2021-03-24 09:23:29:635 [ADB] Could not find online devices
+2021-03-24 09:23:29:635 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:29:636 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:29:849 [ADB] Getting connected devices
+2021-03-24 09:23:29:862 [ADB] No connected devices have been detected
+2021-03-24 09:23:29:863 [ADB] Could not find online devices
+2021-03-24 09:23:29:863 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:29:863 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:30:080 [ADB] Getting connected devices
+2021-03-24 09:23:30:091 [ADB] No connected devices have been detected
+2021-03-24 09:23:30:092 [ADB] Could not find online devices
+2021-03-24 09:23:30:092 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:30:092 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:30:305 [ADB] Getting connected devices
+2021-03-24 09:23:30:319 [ADB] No connected devices have been detected
+2021-03-24 09:23:30:319 [ADB] Could not find online devices
+2021-03-24 09:23:30:319 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:30:319 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:30:533 [ADB] Getting connected devices
+2021-03-24 09:23:30:548 [ADB] No connected devices have been detected
+2021-03-24 09:23:30:548 [ADB] Could not find online devices
+2021-03-24 09:23:30:548 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:30:548 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:30:762 [ADB] Getting connected devices
+2021-03-24 09:23:30:775 [ADB] No connected devices have been detected
+2021-03-24 09:23:30:775 [ADB] Could not find online devices
+2021-03-24 09:23:30:775 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:30:775 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:30:988 [ADB] Getting connected devices
+2021-03-24 09:23:30:999 [ADB] No connected devices have been detected
+2021-03-24 09:23:30:999 [ADB] Could not find online devices
+2021-03-24 09:23:30:999 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:31:000 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:31:213 [ADB] Getting connected devices
+2021-03-24 09:23:31:227 [ADB] No connected devices have been detected
+2021-03-24 09:23:31:227 [ADB] Could not find online devices
+2021-03-24 09:23:31:227 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:31:227 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:31:441 [ADB] Getting connected devices
+2021-03-24 09:23:31:454 [ADB] No connected devices have been detected
+2021-03-24 09:23:31:454 [ADB] Could not find online devices
+2021-03-24 09:23:31:454 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:31:454 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:31:671 [ADB] Getting connected devices
+2021-03-24 09:23:31:686 [ADB] No connected devices have been detected
+2021-03-24 09:23:31:686 [ADB] Could not find online devices
+2021-03-24 09:23:31:686 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:31:686 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:31:901 [ADB] Getting connected devices
+2021-03-24 09:23:31:913 [ADB] No connected devices have been detected
+2021-03-24 09:23:31:914 [ADB] Could not find online devices
+2021-03-24 09:23:31:914 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:31:914 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:32:124 [ADB] Getting connected devices
+2021-03-24 09:23:32:135 [ADB] No connected devices have been detected
+2021-03-24 09:23:32:135 [ADB] Could not find online devices
+2021-03-24 09:23:32:135 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:32:135 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:32:349 [ADB] Getting connected devices
+2021-03-24 09:23:32:362 [ADB] No connected devices have been detected
+2021-03-24 09:23:32:362 [ADB] Could not find online devices
+2021-03-24 09:23:32:362 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:32:363 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:32:573 [ADB] Getting connected devices
+2021-03-24 09:23:32:586 [ADB] No connected devices have been detected
+2021-03-24 09:23:32:586 [ADB] Could not find online devices
+2021-03-24 09:23:32:586 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:32:587 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:32:799 [ADB] Getting connected devices
+2021-03-24 09:23:32:813 [ADB] No connected devices have been detected
+2021-03-24 09:23:32:814 [ADB] Could not find online devices
+2021-03-24 09:23:32:814 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:32:814 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:33:025 [ADB] Getting connected devices
+2021-03-24 09:23:33:040 [ADB] No connected devices have been detected
+2021-03-24 09:23:33:040 [ADB] Could not find online devices
+2021-03-24 09:23:33:041 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:33:041 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:33:255 [ADB] Getting connected devices
+2021-03-24 09:23:33:272 [ADB] No connected devices have been detected
+2021-03-24 09:23:33:273 [ADB] Could not find online devices
+2021-03-24 09:23:33:273 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:33:273 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:33:489 [ADB] Getting connected devices
+2021-03-24 09:23:33:506 [ADB] No connected devices have been detected
+2021-03-24 09:23:33:506 [ADB] Could not find online devices
+2021-03-24 09:23:33:506 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:33:506 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:33:721 [ADB] Getting connected devices
+2021-03-24 09:23:33:734 [ADB] No connected devices have been detected
+2021-03-24 09:23:33:734 [ADB] Could not find online devices
+2021-03-24 09:23:33:734 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:33:734 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:33:949 [ADB] Getting connected devices
+2021-03-24 09:23:33:963 [ADB] No connected devices have been detected
+2021-03-24 09:23:33:963 [ADB] Could not find online devices
+2021-03-24 09:23:33:963 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:33:963 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:34:174 [ADB] Getting connected devices
+2021-03-24 09:23:34:185 [ADB] No connected devices have been detected
+2021-03-24 09:23:34:186 [ADB] Could not find online devices
+2021-03-24 09:23:34:186 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:34:186 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:34:399 [ADB] Getting connected devices
+2021-03-24 09:23:34:412 [ADB] No connected devices have been detected
+2021-03-24 09:23:34:412 [ADB] Could not find online devices
+2021-03-24 09:23:34:412 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:34:412 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:34:624 [ADB] Getting connected devices
+2021-03-24 09:23:34:637 [ADB] No connected devices have been detected
+2021-03-24 09:23:34:637 [ADB] Could not find online devices
+2021-03-24 09:23:34:638 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:34:638 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:34:851 [ADB] Getting connected devices
+2021-03-24 09:23:34:864 [ADB] No connected devices have been detected
+2021-03-24 09:23:34:864 [ADB] Could not find online devices
+2021-03-24 09:23:34:865 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:34:865 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:35:079 [ADB] Getting connected devices
+2021-03-24 09:23:35:093 [ADB] No connected devices have been detected
+2021-03-24 09:23:35:094 [ADB] Could not find online devices
+2021-03-24 09:23:35:094 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:35:094 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:35:307 [ADB] Getting connected devices
+2021-03-24 09:23:35:320 [ADB] No connected devices have been detected
+2021-03-24 09:23:35:320 [ADB] Could not find online devices
+2021-03-24 09:23:35:320 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:35:321 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:35:534 [ADB] Getting connected devices
+2021-03-24 09:23:35:548 [ADB] No connected devices have been detected
+2021-03-24 09:23:35:549 [ADB] Could not find online devices
+2021-03-24 09:23:35:549 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:35:549 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:35:761 [ADB] Getting connected devices
+2021-03-24 09:23:35:775 [ADB] No connected devices have been detected
+2021-03-24 09:23:35:776 [ADB] Could not find online devices
+2021-03-24 09:23:35:776 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:35:777 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:35:988 [ADB] Getting connected devices
+2021-03-24 09:23:35:999 [ADB] No connected devices have been detected
+2021-03-24 09:23:35:999 [ADB] Could not find online devices
+2021-03-24 09:23:35:999 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:35:999 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:36:215 [ADB] Getting connected devices
+2021-03-24 09:23:36:228 [ADB] No connected devices have been detected
+2021-03-24 09:23:36:228 [ADB] Could not find online devices
+2021-03-24 09:23:36:229 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:36:229 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:36:443 [ADB] Getting connected devices
+2021-03-24 09:23:36:457 [ADB] No connected devices have been detected
+2021-03-24 09:23:36:457 [ADB] Could not find online devices
+2021-03-24 09:23:36:457 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:36:457 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:36:672 [ADB] Getting connected devices
+2021-03-24 09:23:36:686 [ADB] No connected devices have been detected
+2021-03-24 09:23:36:686 [ADB] Could not find online devices
+2021-03-24 09:23:36:687 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:36:687 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:36:899 [ADB] Getting connected devices
+2021-03-24 09:23:36:913 [ADB] No connected devices have been detected
+2021-03-24 09:23:36:913 [ADB] Could not find online devices
+2021-03-24 09:23:36:913 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:36:913 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:37:124 [ADB] Getting connected devices
+2021-03-24 09:23:37:139 [ADB] No connected devices have been detected
+2021-03-24 09:23:37:139 [ADB] Could not find online devices
+2021-03-24 09:23:37:139 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:37:140 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:37:354 [ADB] Getting connected devices
+2021-03-24 09:23:37:367 [ADB] No connected devices have been detected
+2021-03-24 09:23:37:368 [ADB] Could not find online devices
+2021-03-24 09:23:37:368 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:37:368 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:37:583 [ADB] Getting connected devices
+2021-03-24 09:23:37:597 [ADB] No connected devices have been detected
+2021-03-24 09:23:37:598 [ADB] Could not find online devices
+2021-03-24 09:23:37:598 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:37:598 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:37:808 [ADB] Getting connected devices
+2021-03-24 09:23:37:821 [ADB] No connected devices have been detected
+2021-03-24 09:23:37:822 [ADB] Could not find online devices
+2021-03-24 09:23:37:822 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:37:822 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:38:033 [ADB] Getting connected devices
+2021-03-24 09:23:38:046 [ADB] No connected devices have been detected
+2021-03-24 09:23:38:046 [ADB] Could not find online devices
+2021-03-24 09:23:38:047 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:38:047 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:38:258 [ADB] Getting connected devices
+2021-03-24 09:23:38:271 [ADB] No connected devices have been detected
+2021-03-24 09:23:38:272 [ADB] Could not find online devices
+2021-03-24 09:23:38:272 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:38:272 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:38:483 [ADB] Getting connected devices
+2021-03-24 09:23:38:497 [ADB] No connected devices have been detected
+2021-03-24 09:23:38:497 [ADB] Could not find online devices
+2021-03-24 09:23:38:498 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:38:498 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:38:713 [ADB] Getting connected devices
+2021-03-24 09:23:38:727 [ADB] No connected devices have been detected
+2021-03-24 09:23:38:727 [ADB] Could not find online devices
+2021-03-24 09:23:38:727 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:38:728 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:38:940 [ADB] Getting connected devices
+2021-03-24 09:23:38:952 [ADB] No connected devices have been detected
+2021-03-24 09:23:38:952 [ADB] Could not find online devices
+2021-03-24 09:23:38:952 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:38:952 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:39:164 [ADB] Getting connected devices
+2021-03-24 09:23:39:177 [ADB] No connected devices have been detected
+2021-03-24 09:23:39:177 [ADB] Could not find online devices
+2021-03-24 09:23:39:177 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:39:177 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:39:391 [ADB] Getting connected devices
+2021-03-24 09:23:39:405 [ADB] No connected devices have been detected
+2021-03-24 09:23:39:406 [ADB] Could not find online devices
+2021-03-24 09:23:39:406 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:39:406 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:39:620 [ADB] Getting connected devices
+2021-03-24 09:23:39:633 [ADB] No connected devices have been detected
+2021-03-24 09:23:39:634 [ADB] Could not find online devices
+2021-03-24 09:23:39:634 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:39:634 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:39:849 [ADB] Getting connected devices
+2021-03-24 09:23:39:862 [ADB] No connected devices have been detected
+2021-03-24 09:23:39:863 [ADB] Could not find online devices
+2021-03-24 09:23:39:863 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:39:863 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:40:080 [ADB] Getting connected devices
+2021-03-24 09:23:40:094 [ADB] No connected devices have been detected
+2021-03-24 09:23:40:094 [ADB] Could not find online devices
+2021-03-24 09:23:40:094 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:40:094 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:40:308 [ADB] Getting connected devices
+2021-03-24 09:23:40:321 [ADB] No connected devices have been detected
+2021-03-24 09:23:40:321 [ADB] Could not find online devices
+2021-03-24 09:23:40:323 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:40:323 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:40:535 [ADB] Getting connected devices
+2021-03-24 09:23:40:547 [ADB] No connected devices have been detected
+2021-03-24 09:23:40:547 [ADB] Could not find online devices
+2021-03-24 09:23:40:547 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:40:547 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:40:762 [ADB] Getting connected devices
+2021-03-24 09:23:40:776 [ADB] No connected devices have been detected
+2021-03-24 09:23:40:776 [ADB] Could not find online devices
+2021-03-24 09:23:40:776 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:40:776 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:40:990 [ADB] Getting connected devices
+2021-03-24 09:23:41:005 [ADB] No connected devices have been detected
+2021-03-24 09:23:41:005 [ADB] Could not find online devices
+2021-03-24 09:23:41:005 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:41:005 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:41:216 [ADB] Getting connected devices
+2021-03-24 09:23:41:228 [ADB] No connected devices have been detected
+2021-03-24 09:23:41:229 [ADB] Could not find online devices
+2021-03-24 09:23:41:229 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:41:229 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:41:444 [ADB] Getting connected devices
+2021-03-24 09:23:41:456 [ADB] No connected devices have been detected
+2021-03-24 09:23:41:456 [ADB] Could not find online devices
+2021-03-24 09:23:41:456 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:41:456 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:41:666 [ADB] Getting connected devices
+2021-03-24 09:23:41:678 [ADB] No connected devices have been detected
+2021-03-24 09:23:41:678 [ADB] Could not find online devices
+2021-03-24 09:23:41:678 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:41:678 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:41:890 [ADB] Getting connected devices
+2021-03-24 09:23:41:902 [ADB] No connected devices have been detected
+2021-03-24 09:23:41:902 [ADB] Could not find online devices
+2021-03-24 09:23:41:902 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:41:902 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:42:114 [ADB] Getting connected devices
+2021-03-24 09:23:42:128 [ADB] No connected devices have been detected
+2021-03-24 09:23:42:128 [ADB] Could not find online devices
+2021-03-24 09:23:42:128 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:42:129 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:42:339 [ADB] Getting connected devices
+2021-03-24 09:23:42:356 [ADB] No connected devices have been detected
+2021-03-24 09:23:42:357 [ADB] Could not find online devices
+2021-03-24 09:23:42:357 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:42:357 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:42:573 [ADB] Getting connected devices
+2021-03-24 09:23:42:588 [ADB] No connected devices have been detected
+2021-03-24 09:23:42:588 [ADB] Could not find online devices
+2021-03-24 09:23:42:589 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:42:589 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:42:806 [ADB] Getting connected devices
+2021-03-24 09:23:42:819 [ADB] No connected devices have been detected
+2021-03-24 09:23:42:819 [ADB] Could not find online devices
+2021-03-24 09:23:42:819 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:42:819 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:43:033 [ADB] Getting connected devices
+2021-03-24 09:23:43:045 [ADB] No connected devices have been detected
+2021-03-24 09:23:43:045 [ADB] Could not find online devices
+2021-03-24 09:23:43:045 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:43:045 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:43:258 [ADB] Getting connected devices
+2021-03-24 09:23:43:270 [ADB] No connected devices have been detected
+2021-03-24 09:23:43:271 [ADB] Could not find online devices
+2021-03-24 09:23:43:271 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:43:271 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:43:485 [ADB] Getting connected devices
+2021-03-24 09:23:43:498 [ADB] No connected devices have been detected
+2021-03-24 09:23:43:498 [ADB] Could not find online devices
+2021-03-24 09:23:43:498 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:43:498 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:43:712 [ADB] Getting connected devices
+2021-03-24 09:23:43:726 [ADB] No connected devices have been detected
+2021-03-24 09:23:43:726 [ADB] Could not find online devices
+2021-03-24 09:23:43:726 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:43:727 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:43:940 [ADB] Getting connected devices
+2021-03-24 09:23:43:955 [ADB] No connected devices have been detected
+2021-03-24 09:23:43:955 [ADB] Could not find online devices
+2021-03-24 09:23:43:955 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:43:955 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:44:170 [ADB] Getting connected devices
+2021-03-24 09:23:44:184 [ADB] No connected devices have been detected
+2021-03-24 09:23:44:184 [ADB] Could not find online devices
+2021-03-24 09:23:44:184 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:44:184 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:44:399 [ADB] Getting connected devices
+2021-03-24 09:23:44:411 [ADB] No connected devices have been detected
+2021-03-24 09:23:44:411 [ADB] Could not find online devices
+2021-03-24 09:23:44:411 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:44:411 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:44:626 [ADB] Getting connected devices
+2021-03-24 09:23:44:640 [ADB] No connected devices have been detected
+2021-03-24 09:23:44:640 [ADB] Could not find online devices
+2021-03-24 09:23:44:640 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:44:641 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:44:857 [ADB] Getting connected devices
+2021-03-24 09:23:44:871 [ADB] No connected devices have been detected
+2021-03-24 09:23:44:871 [ADB] Could not find online devices
+2021-03-24 09:23:44:871 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:44:871 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:45:083 [ADB] Getting connected devices
+2021-03-24 09:23:45:098 [ADB] No connected devices have been detected
+2021-03-24 09:23:45:098 [ADB] Could not find online devices
+2021-03-24 09:23:45:098 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:45:098 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:45:310 [ADB] Getting connected devices
+2021-03-24 09:23:45:324 [ADB] No connected devices have been detected
+2021-03-24 09:23:45:324 [ADB] Could not find online devices
+2021-03-24 09:23:45:325 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:45:325 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:45:539 [ADB] Getting connected devices
+2021-03-24 09:23:45:552 [ADB] No connected devices have been detected
+2021-03-24 09:23:45:552 [ADB] Could not find online devices
+2021-03-24 09:23:45:553 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:45:553 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:45:768 [ADB] Getting connected devices
+2021-03-24 09:23:45:782 [ADB] No connected devices have been detected
+2021-03-24 09:23:45:782 [ADB] Could not find online devices
+2021-03-24 09:23:45:782 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:45:782 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:45:992 [ADB] Getting connected devices
+2021-03-24 09:23:46:005 [ADB] No connected devices have been detected
+2021-03-24 09:23:46:005 [ADB] Could not find online devices
+2021-03-24 09:23:46:005 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:46:005 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:46:223 [ADB] Getting connected devices
+2021-03-24 09:23:46:237 [ADB] No connected devices have been detected
+2021-03-24 09:23:46:237 [ADB] Could not find online devices
+2021-03-24 09:23:46:238 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:46:238 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:46:450 [ADB] Getting connected devices
+2021-03-24 09:23:46:462 [ADB] No connected devices have been detected
+2021-03-24 09:23:46:462 [ADB] Could not find online devices
+2021-03-24 09:23:46:462 [ADB] Reconnecting adb (target offline)
+2021-03-24 09:23:46:462 [ADB] Running '/Users/vishnu.vardhan/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-03-24 09:23:46:660 [Appium] Received SIGINT - shutting down

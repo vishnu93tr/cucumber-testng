@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sauce Labs App Automation" duration-ms="32089" started-at="2021-03-26T12:03:20 IST" finished-at="2021-03-26T12:03:53 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="MyTestNGRunnersTest.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyTestNGRunnersTest@86be70a]" name="runScenario" class="com.qa.runners.MyTestNGRunnersTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Android" duration-ms="32089" started-at="2021-03-26T12:03:20 IST" finished-at="2021-03-26T12:03:53 IST">
+      <class name="com.qa.runners.MyTestNGRunnersTest">
+        <test-method status="PASS" signature="setUpClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.runners.MyTestNGRunnersTest@86be70a]" name="setUpClass" is-config="true" duration-ms="10490" started-at="2021-03-26T12:03:20 IST" finished-at="2021-03-26T12:03:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pixel2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyTestNGRunnersTest@86be70a]" name="runScenario" duration-ms="9122" started-at="2021-03-26T12:03:31 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-26T12:03:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid user name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login scenarios for Sauce Labs App]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyTestNGRunnersTest@86be70a]" name="runScenario" duration-ms="5143" started-at="2021-03-26T12:03:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-26T12:03:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login scenarios for Sauce Labs App]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qa.runners.MyTestNGRunnersTest@86be70a]" name="runScenario" duration-ms="5893" started-at="2021-03-26T12:03:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-26T12:03:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login scenarios for Sauce Labs App]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.runners.MyTestNGRunnersTest@86be70a]" name="tearDownClass" is-config="true" duration-ms="1402" started-at="2021-03-26T12:03:51 IST" finished-at="2021-03-26T12:03:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.runners.MyTestNGRunnersTest -->
+    </test> <!-- Android -->
+  </suite> <!-- Sauce Labs App Automation -->
+</testng-results>

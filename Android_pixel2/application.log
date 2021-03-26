@@ -1,0 +1,146 @@
+[INFO ] 2021-03-26 11:16:06.0355 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:16:08.0833 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:16:08.0878 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:16:08.0897 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:16:08.0898 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:16:08.0900 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:17:06.0782 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:17:08.0240 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:17:08.0281 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:17:08.0301 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:17:08.0301 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:17:08.0304 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:17:18.0937 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:17:22.0523 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with dummy_user
+[INFO ] 2021-03-26 11:17:24.0414 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 11:17:25.0528 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:17:26.0421 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 11:17:27.0196 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with invalid user name.mp4
+[INFO ] 2021-03-26 11:17:28.0438 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 11:17:30.0120 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is dummy_sauce
+[INFO ] 2021-03-26 11:17:30.0748 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:17:31.0200 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 11:17:31.0964 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with invalid password.mp4
+[INFO ] 2021-03-26 11:17:33.0170 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 11:17:34.0878 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 11:17:35.0955 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:17:42.0462 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -product page title is - PRODUCTS
+[INFO ] 2021-03-26 11:17:43.0239 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with valid username and password.mp4
+[INFO ] 2021-03-26 11:24:20.0835 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:24:22.0631 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:24:22.0631 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:24:22.0719 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:24:22.0719 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:24:22.0743 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:24:22.0743 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:24:22.0744 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:24:22.0744 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:24:22.0747 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:24:22.0747 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:40) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app
+[INFO ] 2021-03-26 11:24:36.0178 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:24:45.0162 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with dummy_user
+[INFO ] 2021-03-26 11:24:46.0686 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 11:24:47.0330 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:24:48.0215 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 11:24:49.0122 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with invalid user name.mp4
+[INFO ] 2021-03-26 11:24:50.0444 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 11:24:52.0116 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is dummy_sauce
+[INFO ] 2021-03-26 11:24:53.0191 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:24:53.0682 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 11:24:54.0540 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with invalid password.mp4
+[INFO ] 2021-03-26 11:24:55.0738 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 11:24:56.0923 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 11:24:57.0544 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:24:59.0744 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -product page title is - PRODUCTS
+[INFO ] 2021-03-26 11:25:00.0808 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with valid username and password.mp4
+[INFO ] 2021-03-26 11:25:21.0932 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:25:24.0261 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with dummy_user
+[INFO ] 2021-03-26 11:25:27.0446 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 11:25:29.0237 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:25:33.0699 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 11:25:34.0570 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: iOS_iPhone/Videos/Login with invalid user name.mp4
+[INFO ] 2021-03-26 11:25:38.0617 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 11:25:42.0238 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is dummy_sauce
+[INFO ] 2021-03-26 11:25:43.0299 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:25:46.0461 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 11:25:47.0466 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: iOS_iPhone/Videos/Login with invalid password.mp4
+[INFO ] 2021-03-26 11:25:51.0100 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 11:25:54.0367 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 11:25:55.0567 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 11:26:01.0166 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -product page title is - PRODUCTS
+[INFO ] 2021-03-26 11:26:02.0613 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: iOS_iPhone/Videos/Login with valid username and password.mp4
+[INFO ] 2021-03-26 11:51:56.0426 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:51:58.0037 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:51:58.0072 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:51:58.0099 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:51:58.0099 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:51:58.0117 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:51:58.0117 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:51:58.0118 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:51:58.0118 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:51:58.0121 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:40) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app
+[INFO ] 2021-03-26 11:51:58.0121 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:52:07.0518 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:52:09.0306 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:53:14.0658 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:53:16.0553 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:53:16.0588 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:53:16.0603 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:53:16.0604 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:53:16.0605 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:40) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app
+[INFO ] 2021-03-26 11:53:16.0639 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:53:16.0640 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:53:16.0643 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:53:16.0644 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:53:25.0568 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:53:26.0662 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:53:55.0217 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:53:56.0637 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:53:56.0673 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:53:56.0696 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:53:56.0697 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:53:56.0699 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:54:05.0121 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:54:48.0855 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:54:50.0372 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:54:50.0407 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:54:50.0425 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:54:50.0426 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:54:50.0428 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:54:58.0813 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:58:24.0008 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:58:25.0424 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:58:25.0474 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:58:25.0492 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:58:25.0492 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:58:25.0494 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:58:33.0960 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 11:59:27.0117 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 11:59:28.0544 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 11:59:28.0579 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 11:59:28.0602 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 11:59:28.0603 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 11:59:28.0605 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 11:59:38.0337 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 12:03:21.0340 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-26 12:03:22.0748 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-26 12:03:22.0784 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-26 12:03:22.0804 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-26 12:03:22.0806 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-26 12:03:22.0809 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:34) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[INFO ] 2021-03-26 12:03:31.0027 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-26 12:03:33.0835 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with dummy_user
+[INFO ] 2021-03-26 12:03:35.0548 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 12:03:36.0668 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 12:03:39.0763 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 12:03:40.0583 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with invalid user name.mp4
+[INFO ] 2021-03-26 12:03:41.0787 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 12:03:43.0465 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is dummy_sauce
+[INFO ] 2021-03-26 12:03:44.0569 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 12:03:44.0976 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-26 12:03:45.0731 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with invalid password.mp4
+[INFO ] 2021-03-26 12:03:46.0908 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-26 12:03:48.0541 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-26 12:03:49.0146 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-26 12:03:50.0839 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -product page title is - PRODUCTS
+[INFO ] 2021-03-26 12:03:51.0624 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: Android_pixel2/Videos/Login with valid username and password.mp4

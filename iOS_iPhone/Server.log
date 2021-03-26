@@ -1,0 +1,192 @@
+2021-03-26 06:23:16:285 [Appium] Welcome to Appium v1.20.2
+2021-03-26 06:23:16:287 [Appium] Non-default server args:
+2021-03-26 06:23:16:287 [Appium]   port: 19786
+2021-03-26 06:23:16:287 [Appium]   sessionOverride: true
+2021-03-26 06:23:16:289 [Appium]   logFile: /Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/iOS_iPhone/Server.log
+2021-03-26 06:23:16:317 [Appium] Appium REST http interface listener started on 0.0.0.0:19786
+2021-03-26 06:23:16:523 [HTTP] --> GET /wd/hub/status
+2021-03-26 06:23:16:523 [HTTP] {}
+2021-03-26 06:23:16:525 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-03-26 06:23:16:526 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-03-26 06:23:16:532 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2021-03-26 06:23:16:532 [HTTP] 
+2021-03-26 06:23:16:541 [HTTP] --> GET /wd/hub/status
+2021-03-26 06:23:16:542 [HTTP] {}
+2021-03-26 06:23:16:545 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-03-26 06:23:16:546 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-03-26 06:23:16:555 [HTTP] <-- GET /wd/hub/status 200 10 ms - 68
+2021-03-26 06:23:16:556 [HTTP] 
+2021-03-26 06:23:17:054 [HTTP] Request idempotency key: 9f44a181-39fe-4bbb-ae2e-98ec617bb56d
+2021-03-26 06:23:17:067 [HTTP] --> POST /wd/hub/session
+2021-03-26 06:23:17:067 [HTTP] {"desiredCapabilities":{"app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app","webkitDebugProxyPort":"11001","automationName":"XCUITest","bundleId":"org.askomdch.SwagLabMobileApp","platformName":"iOS","udid":"8E3D8D15-2520-451B-908B-B0E65FB604BF","deviceName":"iPhone","wdaLocalPort":"10001"},"capabilities":{"firstMatch":[{"appium:app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app","appium:automationName":"XCUITest","appium:bundleId":"org.askomdch.SwagLabMobileApp","appium:deviceName":"iPhone","platformName":"ios","appium:udid":"8E3D8D15-2520-451B-908B-B0E65FB604BF","appium:wdaLocalPort":"10001","webkitDebugProxyPort":"11001"}]}}
+2021-03-26 06:23:17:068 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app","webkitDebugProxyPort":"11001","automationName":"XCUITest","bundleId":"org.askomdch.SwagLabMobileApp","platformName":"iOS","udid":"8E3D8D15-2520-451B-908B-B0E65FB604BF","deviceName":"iPhone","wdaLocalPort":"10001"},null,{"firstMatch":[{"appium:app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app","appium:automationName":"XCUITest","appium:bundleId":"org.askomdch.SwagLabMobileApp","appium:deviceName":"iPhone","platformName":"ios","appium:udid":"8E3D8D15-2520-451B-908B-B0E65FB604BF","appium:wdaLocalPort":"10001","webkitDebugProxyPort":"11001"}]}]
+2021-03-26 06:23:17:069 [BaseDriver] Event 'newSessionRequested' logged at 1616739797068 (11:53:17 GMT+0530 (India Standard Time))
+2021-03-26 06:23:17:071 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-03-26 06:23:17:071 [BaseDriver]   webkitDebugProxyPort
+2021-03-26 06:23:18:032 [Appium] Appium v1.20.2 creating new XCUITestDriver (v3.33.1) session
+2021-03-26 06:23:18:033 [Appium] There are no active sessions for cleanup
+2021-03-26 06:23:18:035 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-03-26 06:23:18:035 [BaseDriver] Creating session with W3C capabilities: {
+2021-03-26 06:23:18:035 [BaseDriver]   "alwaysMatch": {
+2021-03-26 06:23:18:035 [BaseDriver]     "platformName": "ios",
+2021-03-26 06:23:18:036 [BaseDriver]     "appium:webkitDebugProxyPort": "11001",
+2021-03-26 06:23:18:036 [BaseDriver]     "appium:app": "/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app",
+2021-03-26 06:23:18:036 [BaseDriver]     "appium:automationName": "XCUITest",
+2021-03-26 06:23:18:036 [BaseDriver]     "appium:bundleId": "org.askomdch.SwagLabMobileApp",
+2021-03-26 06:23:18:036 [BaseDriver]     "appium:deviceName": "iPhone",
+2021-03-26 06:23:18:036 [BaseDriver]     "appium:udid": "8E3D8D15-2520-451B-908B-B0E65FB604BF",
+2021-03-26 06:23:18:037 [BaseDriver]     "appium:wdaLocalPort": "10001"
+2021-03-26 06:23:18:038 [BaseDriver]   },
+2021-03-26 06:23:18:038 [BaseDriver]   "firstMatch": [
+2021-03-26 06:23:18:039 [BaseDriver]     {}
+2021-03-26 06:23:18:040 [BaseDriver]   ]
+2021-03-26 06:23:18:042 [BaseDriver] }
+2021-03-26 06:23:18:045 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-03-26 06:23:18:046 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-03-26 06:23:18:048 [BaseDriver] Capability 'wdaLocalPort' changed from string ('10001') to integer (10001). This may cause unexpected behavior
+2021-03-26 06:23:18:048 [BaseDriver] Capability 'webkitDebugProxyPort' changed from string ('11001') to integer (11001). This may cause unexpected behavior
+2021-03-26 06:23:18:054 [XCUITest] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+2021-03-26 06:23:18:055 [BaseDriver] Session created with session id: 5311301d-1e7b-4690-a585-9ed1da6a8fa7
+2021-03-26 06:23:18:082 [XCUITest] Current user: 'vishnu.vardhan'
+2021-03-26 06:23:18:103 [XCUITest] Available devices: 
+2021-03-26 06:23:18:103 [XCUITest] No real device with udid '8E3D8D15-2520-451B-908B-B0E65FB604BF'. Looking for simulator
+2021-03-26 06:23:18:466 [iOSSim] Constructing iOS simulator for Xcode version 11.3 with udid '8E3D8D15-2520-451B-908B-B0E65FB604BF'
+2021-03-26 06:23:18:467 [XCUITest] Determining device to run tests on: udid: '8E3D8D15-2520-451B-908B-B0E65FB604BF', real device: false
+2021-03-26 06:23:18:771 [XCUITest] No platformVersion specified. Using device version: '13.3'
+2021-03-26 06:23:18:773 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1616739798773 (11:53:18 GMT+0530 (India Standard Time))
+2021-03-26 06:23:18:775 [BaseDriver] Using local app '/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app'
+2021-03-26 06:23:18:776 [BaseDriver] Event 'appConfigured' logged at 1616739798775 (11:53:18 GMT+0530 (India Standard Time))
+2021-03-26 06:23:18:776 [XCUITest] Checking whether app '/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app' is actually present on file system
+2021-03-26 06:23:18:777 [XCUITest] App is present
+2021-03-26 06:23:18:779 [BaseDriver] Event 'resetStarted' logged at 1616739798779 (11:53:18 GMT+0530 (India Standard Time))
+2021-03-26 06:23:19:299 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2021-03-26 06:23:19:300 [BaseDriver] Event 'resetComplete' logged at 1616739799300 (11:53:19 GMT+0530 (India Standard Time))
+2021-03-26 06:23:19:300 [WebDriverAgent] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+2021-03-26 06:23:19:300 [WebDriverAgent] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2021-03-26 06:23:19:538 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid '8E3D8D15-2520-451B-908B-B0E65FB604BF' using simctl
+2021-03-26 06:23:19:956 [BaseDriver] Event 'logCaptureStarted' logged at 1616739799956 (11:53:19 GMT+0530 (India Standard Time))
+2021-03-26 06:23:19:956 [XCUITest] Setting up simulator
+2021-03-26 06:23:19:957 [iOS] No reason to set locale
+2021-03-26 06:23:19:957 [iOS] No iOS / app preferences to set
+2021-03-26 06:23:19:958 [iOS] Setting did not need to be updated
+2021-03-26 06:23:19:959 [iOSSim] Setting preferences of 8E3D8D15-2520-451B-908B-B0E65FB604BF Simulator to {"ConnectHardwareKeyboard":false}
+2021-03-26 06:23:19:959 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2021-03-26 06:23:20:070 [iOSSim] Updated 8E3D8D15-2520-451B-908B-B0E65FB604BF Simulator preferences at '/Users/vishnu.vardhan/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"8E3D8D15-2520-451B-908B-B0E65FB604BF":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"ChromeTint":"","SimulatorWindowGeometry":{"CE41D4E6-4B40-4CDF-8548-72DBE04CD7ED":{"WindowCenter":"{1138.5, 492}","WindowScale":0.9025821596244131}},"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0}}}
+2021-03-26 06:23:20:407 [iOSSim] Got Simulator UI client PID: 69118
+2021-03-26 06:23:20:408 [iOSSim] Both Simulator with UDID '8E3D8D15-2520-451B-908B-B0E65FB604BF' and the UI client are currently running
+2021-03-26 06:23:20:408 [BaseDriver] Event 'simStarted' logged at 1616739800408 (11:53:20 GMT+0530 (India Standard Time))
+2021-03-26 06:23:20:408 [XCUITest] Verifying application platform
+2021-03-26 06:23:20:411 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2021-03-26 06:23:20:652 [XCUITest] Reset requested. Removing app with id 'org.askomdch.SwagLabMobileApp' from the device
+2021-03-26 06:23:21:924 [XCUITest] Installing '/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app' on Simulator with UUID '8E3D8D15-2520-451B-908B-B0E65FB604BF'...
+2021-03-26 06:23:22:132 [WebDriverAgent] Parsed BUILD_DIR configuration value: '/Users/vishnu.vardhan/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+2021-03-26 06:23:22:132 [WebDriverAgent] Got derived data root: '/Users/vishnu.vardhan/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+2021-03-26 06:23:23:782 [XCUITest] The app has been installed successfully.
+2021-03-26 06:23:23:782 [BaseDriver] Event 'appInstalled' logged at 1616739803782 (11:53:23 GMT+0530 (India Standard Time))
+2021-03-26 06:23:23:872 [WebDriverAgent] No obsolete cached processes from previous WDA sessions listening on port 10001 have been found
+2021-03-26 06:23:23:872 [DevCon Factory] Requesting connection for device 8E3D8D15-2520-451B-908B-B0E65FB604BF on local port 10001
+2021-03-26 06:23:23:873 [DevCon Factory] Cached connections count: 0
+2021-03-26 06:23:23:873 [DevCon Factory] Successfully requested the connection for 8E3D8D15-2520-451B-908B-B0E65FB604BF:10001
+2021-03-26 06:23:23:874 [XCUITest] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2021-03-26 06:23:23:876 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-03-26 06:23:23:876 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10001/status] with no body
+2021-03-26 06:23:23:885 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"13.0","version":"13.3"},"ios":{"simulatorVersion":"13.3","ip":"192.168.1.4"},"ready":true,"build":{"upgradedAt":"499162500000","time":"Mar 26 2021 11:30:47","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-03-26 06:23:23:886 [WebDriverAgent] Upgrade timestamp of the currently bundled WDA: 499162500000
+2021-03-26 06:23:23:886 [WebDriverAgent] Upgrade timestamp of the WDA on the device: 499162500000
+2021-03-26 06:23:23:886 [WebDriverAgent] Will reuse previously cached WDA instance at 'http://127.0.0.1:10001/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 10001 if this is an undesired behavior.
+2021-03-26 06:23:23:886 [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+2021-03-26 06:23:23:886 [XCUITest] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2021-03-26 06:23:23:887 [BaseDriver] Event 'wdaStartAttempted' logged at 1616739803887 (11:53:23 GMT+0530 (India Standard Time))
+2021-03-26 06:23:23:887 [WebDriverAgent] Using provided WebdriverAgent at 'http://127.0.0.1:10001/'
+2021-03-26 06:23:23:888 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-03-26 06:23:23:888 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10001/status] with no body
+2021-03-26 06:23:23:891 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"13.0","version":"13.3"},"ios":{"simulatorVersion":"13.3","ip":"192.168.1.4"},"ready":true,"build":{"upgradedAt":"499162500000","time":"Mar 26 2021 11:30:47","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-03-26 06:23:23:891 [BaseDriver] Event 'wdaSessionAttempted' logged at 1616739803891 (11:53:23 GMT+0530 (India Standard Time))
+2021-03-26 06:23:23:892 [XCUITest] Sending createSession command to WDA
+2021-03-26 06:23:23:893 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-03-26 06:23:23:893 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10001/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"org.askomdch.SwagLabMobileApp","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}
+2021-03-26 06:23:25:510 [WD Proxy] Got response with status 200: {"value":{"sessionId":"F82692EF-72E6-43EF-82E3-F96C1DC03082","capabilities":{"device":"iphone","browserName":"SwagLabsMobileApp","sdkVersion":"13.3","CFBundleIdentifier":"org.askomdch.SwagLabMobileApp"}},"sessionId":"F82692EF-72E6-43EF-82E3-F96C1DC03082"}
+2021-03-26 06:23:25:510 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-03-26 06:23:25:510 [BaseDriver] Event 'wdaSessionStarted' logged at 1616739805510 (11:53:25 GMT+0530 (India Standard Time))
+2021-03-26 06:23:25:510 [BaseDriver] Event 'wdaStarted' logged at 1616739805510 (11:53:25 GMT+0530 (India Standard Time))
+2021-03-26 06:23:25:511 [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2021-03-26 06:23:25:511 [BaseDriver] Event 'orientationSet' logged at 1616739805511 (11:53:25 GMT+0530 (India Standard Time))
+2021-03-26 06:23:25:511 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2021-03-26 06:23:25:511 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2021-03-26 06:23:25:512 [Appium] New XCUITestDriver session created successfully, session 5311301d-1e7b-4690-a585-9ed1da6a8fa7 added to master session list
+2021-03-26 06:23:25:512 [BaseDriver] Event 'newSessionStarted' logged at 1616739805512 (11:53:25 GMT+0530 (India Standard Time))
+2021-03-26 06:23:25:513 [W3C (5311301d)] Cached the protocol value 'W3C' for the new session 5311301d-1e7b-4690-a585-9ed1da6a8fa7
+2021-03-26 06:23:25:513 [W3C (5311301d)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","webkitDebugProxyPort":11001,"app":"/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD-testNG/target/test-classes/apps/SwagLabsMobileApp.app","automationName":"XCUITest","bundleId":"org.askomdch.SwagLabMobileApp","deviceName":"iPhone","udid":"8E3D8D15-2520-451B-908B-B0E65FB604BF","wdaLocalPort":10001}}
+2021-03-26 06:23:25:514 [HTTP] <-- POST /wd/hub/session 200 8447 ms - 604
+2021-03-26 06:23:25:514 [HTTP] 
+2021-03-26 06:23:26:381 [HTTP] --> DELETE /wd/hub/session/5311301d-1e7b-4690-a585-9ed1da6a8fa7
+2021-03-26 06:23:26:381 [HTTP] {}
+2021-03-26 06:23:26:382 [W3C (5311301d)] Calling AppiumDriver.deleteSession() with args: ["5311301d-1e7b-4690-a585-9ed1da6a8fa7"]
+2021-03-26 06:23:26:382 [BaseDriver] Event 'quitSessionRequested' logged at 1616739806382 (11:53:26 GMT+0530 (India Standard Time))
+2021-03-26 06:23:26:382 [Appium] Removing session 5311301d-1e7b-4690-a585-9ed1da6a8fa7 from our master session list
+2021-03-26 06:23:26:384 [WD Proxy] Matched '/session/5311301d-1e7b-4690-a585-9ed1da6a8fa7' to command name 'deleteSession'
+2021-03-26 06:23:26:384 [WD Proxy] Proxying [DELETE /session/5311301d-1e7b-4690-a585-9ed1da6a8fa7] to [DELETE http://127.0.0.1:10001/session/F82692EF-72E6-43EF-82E3-F96C1DC03082] with no body
+2021-03-26 06:23:27:404 [WD Proxy] Got response with status 200: {"value":null,"sessionId":null}
+2021-03-26 06:23:27:404 [DevCon Factory] Releasing connections for 8E3D8D15-2520-451B-908B-B0E65FB604BF device on any port number
+2021-03-26 06:23:27:404 [DevCon Factory] Found cached connections to release: ["8E3D8D15-2520-451B-908B-B0E65FB604BF:10001"]
+2021-03-26 06:23:27:405 [DevCon Factory] Cached connections count: 0
+2021-03-26 06:23:27:405 [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2021-03-26 06:23:27:405 [IOSSimulatorLog] Stopping iOS log capture
+2021-03-26 06:23:27:412 [BaseDriver] Event 'quitSessionFinished' logged at 1616739807412 (11:53:27 GMT+0530 (India Standard Time))
+2021-03-26 06:23:27:412 [W3C (5311301d)] Received response: null
+2021-03-26 06:23:27:413 [W3C (5311301d)] But deleting session, so not returning
+2021-03-26 06:23:27:413 [W3C (5311301d)] Responding to client with driver.deleteSession() result: null
+2021-03-26 06:23:27:414 [HTTP] <-- DELETE /wd/hub/session/5311301d-1e7b-4690-a585-9ed1da6a8fa7 200 1032 ms - 14
+2021-03-26 06:23:27:414 [HTTP] 
+2021-03-26 06:23:27:421 [Appium] Received SIGTERM - shutting down
+2021-03-26 06:23:27:441 [Appium] There are no active sessions for cleanup
+2021-03-26 06:23:27:444 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:785:11)
+    at Socket._write (net.js:797:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:327:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+2021-03-26 06:23:27:446 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:785:11)
+    at Socket._write (net.js:797:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:327:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+2021-03-26 06:23:27:447 [HTTP] Waiting until the server is closed
+2021-03-26 06:23:27:449 [HTTP] Received server close event
